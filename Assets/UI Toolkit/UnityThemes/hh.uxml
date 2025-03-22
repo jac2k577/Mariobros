@@ -1,0 +1,25 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/menu.uss?fileID=7433441132597879392&amp;guid=2133bdf3925e8424ca506403c81c282c&amp;type=3#menu" />
+    <ui:Label text="Tarea Unity" class="title" style="font-size: 100px; color: rgb(255, 255, 255); -unity-font-style: bold; height: 124px; width: 1098px; align-items: flex-end; align-self: center; justify-content: center; align-content: center; background-color: rgba(201, 63, 57, 0); -unity-background-image-tint-color: rgb(190, 38, 38);" />
+    <ui:VisualElement name="VisualElement" class="menu-container" style="flex-direction: column; align-items: center; justify-content: center; height: 831px; width: 1196px; align-self: center; background-color: rgba(121, 149, 149, 0); background-image: none; -unity-background-image-tint-color: rgb(127, 127, 127);">
+        <ui:VisualElement class="text-container" style="align-items: center; margin-bottom: 20px;" />
+        <ui:VisualElement class="buttons-container" style="flex-direction: column; align-items: center; gap: 20px; height: 617px; width: 567px;">
+            <ui:Button name="btn-jugar" class="menu-button">
+                <ui:Label text="Jugar" style="background-image: url(&quot;project://database/Assets/Saurabh_Studio/UI%20button%20and%20hallowing%20element%20pack%205/Button%206/7.png?fileID=2800000&amp;guid=d3dd507249881854fbaa9d44a29f0d89&amp;type=3#7&quot;); height: 203px; width: 458px; background-color: rgba(255, 255, 255, 0); color: rgb(255, 255, 255);" />
+            </ui:Button>
+            <ui:Button name="btn-ayuda" class="menu-button">
+                <ui:Label text="Ayuda" style="background-image: url(&quot;project://database/Assets/Saurabh_Studio/UI%20button%20and%20hallowing%20element%20pack%205/Button%206/7.png?fileID=2800000&amp;guid=d3dd507249881854fbaa9d44a29f0d89&amp;type=3#7&quot;); height: 207px; width: 458px; color: rgb(255, 255, 255); background-color: rgba(124, 124, 124, 0);" />
+            </ui:Button>
+            <ui:Button name="btn-creditos" class="menu-button">
+                <ui:Label text="Créditos" style="background-image: url(&quot;project://database/Assets/Saurabh_Studio/UI%20button%20and%20hallowing%20element%20pack%205/Button%206/7.png?fileID=2800000&amp;guid=d3dd507249881854fbaa9d44a29f0d89&amp;type=3#7&quot;); height: 209px; width: 473px; color: rgb(255, 255, 255);" />
+            </ui:Button>
+        </ui:VisualElement>
+        <ui:VisualElement name="help-menu" class="help-menu">
+            <ui:Button name="close-help" class="close-button">
+                <ui:Label text="X" />
+            </ui:Button>
+            <ui:Label name="help-text" class="help-text" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:Label text="Jan Francisco Ceron Garcia A01800766" name="Label" style="height: 50px; width: 669px; align-self: flex-end; align-content: flex-end; align-items: center; font-size: 30px; color: rgb(255, 255, 255);" />
+</ui:UXML>

@@ -1,0 +1,32 @@
+/* Contenedor principal de créditos */
+#credits-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: black;
+}
+
+/* Texto de créditos con animación */
+#credits-text {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    animation: scroll-up 10s linear infinite;
+}
+
+/* Animación de desplazamiento continuo hacia arriba */
+@keyframes scroll-up {
+    0% {
+        transform: translateY(100%);
+    }
+    50% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(100%);
+    }
+}
